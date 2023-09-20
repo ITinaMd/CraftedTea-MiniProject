@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "live-server": "^1.2.2",
+    "node-sass": "^9.0.0"
+  },
+  "name": "tea-miniproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "tina": "node-sass -w scss/main.scss -o css/ ",
+    "next-test": "node-sass -w scss/main.scss -o css/ --output-style compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
